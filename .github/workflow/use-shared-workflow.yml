@@ -1,0 +1,9 @@
+name: Use Shared Ansible Lint Workflow
+
+on: [push, pull_request]
+
+jobs:
+  call-shared-workflow:
+    uses: AdrienMS-Cap/shared-workflows/.github/workflows/ansible-lint.yml@main
+    with:
+      repository: ${{ github.repository }}
