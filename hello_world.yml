@@ -5,5 +5,5 @@
 
   tasks:
     - name: Print Hello World
-      debug:
+      ansible.builtin.debug:
         msg: "Hello, World!. I'm feature 1, first change"
