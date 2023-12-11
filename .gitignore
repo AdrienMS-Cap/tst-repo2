@@ -1,0 +1,41 @@
+# Retry files
+*.retry
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+.*.swp
+
+# Python files
+*.pyc
+*.pyo
+*.egg-info/
+__pycache__/
+env/
+venv/
+.env/
+
+# Ansible files
+*.retry
+.ansible/
+ansible_facts/
+roles/*.tar.*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.compile-cache/
+
+# Other
+*.log
+.DS_Store
+.csv
+.xlsx
+*pass.txt
+.git/
+.github/
