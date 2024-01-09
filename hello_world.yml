@@ -10,4 +10,4 @@
 
     - name: Print Hello mypwd
       ansible.builtin.debug:
-        msg: "api= aZEEE"
+        msg: "api: {{ aZEEE }}"
