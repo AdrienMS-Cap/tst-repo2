@@ -10,4 +10,4 @@
 
     - name: Print Hello mypwd
       ansible.builtin.debug:
-        msg: "pwd:AZEEE"
+        msg: "pwd:$AZEEE"
