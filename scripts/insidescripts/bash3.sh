@@ -1,5 +1,5 @@
 #!/bin/bash
 
-message=Helloooo, World!
+message=Hellooo, World!
 
 echo $message
