@@ -1,5 +1,3 @@
 #!/bin/bash
-
-message=Hellooo, World!
-
-echo $message
+name="$1"
+echo "Hello, $name!"
