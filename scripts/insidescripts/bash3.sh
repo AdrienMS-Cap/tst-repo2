@@ -1,5 +1,4 @@
 #!/bin/bash
-
-message=Hellooo, World!
-
-echo $message
+greeting="Hello"
+subject="World"
+echo "$greeting, $subject!!"
