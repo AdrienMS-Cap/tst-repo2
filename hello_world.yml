@@ -6,4 +6,4 @@
   tasks:
     - name: Print Hello World
       ansible.builtin.debug:
-        msg: "Hello, World!. I'm feature 1, first change!!!"
+        msg: "Hello, World!. I'm feature 1, first change!"
