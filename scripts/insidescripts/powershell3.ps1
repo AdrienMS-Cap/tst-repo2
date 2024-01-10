@@ -1,15 +1,5 @@
-# Incorrect variable naming
-$incorrectVariable = "Hello"
+# Intentional issue to make PSScriptAnalyzer fail
+Write-Host "This is a deliberate issue"
+$undefinedVariable = $undefinedVariable + 1
 
-# Incorrect indentation
-  Write-Host "This is incorrectly indented"
-
-# Missing mandatory parameter
-function Test-Function {
-    param (
-        [Parameter()]
-        $MissingParameter
-    )
-
-    Write-Host "Function executed"
-}
+ConvertTo-SecureString "fake" -AsPlainText -Force
